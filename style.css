@@ -1,0 +1,24 @@
+.Fonte-Normal
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+.Fonte-Título
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    font-size: 200%;
+    top: 30%;
+    right: 36%;
+}
+img
+{
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    left: 0.11%;
+    top: 60%;
+}
+body{
+    max-width: 100%;
+  overflow-x: hidden;
+}
