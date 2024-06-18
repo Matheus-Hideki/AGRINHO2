@@ -4,11 +4,11 @@
 }
 .Fonte-Título
 {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Courier New', Courier, monospace;
     position: absolute;
-    font-size: 200%;
-    top: 30%;
-    right: 36%;
+    font-size: 300%;
+    top: 32%;
+    right: 25%;
 }
 img
 {
@@ -21,4 +21,58 @@ img
 body{
     max-width: 100%;
   overflow-x: hidden;
+  text-align: center;
+  animation-name: appear_g;
+  animation-duration: 3s;
+
 }
+.body1{
+  font-family :'Courier New', Courier, monospace;
+  max-width: 30%;
+  font-size: 20px;
+  position: absolute;
+  right: 49%;
+}
+
+.body2{
+    font-family :'Courier New', Courier, monospace;
+    max-width: 60%;
+    font-size: 23px;
+    position: absolute;
+    right: 21%;
+    top: 50%;
+  }
+
+
+
+.body_style1{
+max-width: 100%;
+font-size: 17px;
+color: rgb(220, 226, 231);
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+cursor: default;
+animation-name: appear_g;
+animation-duration: 3s;
+  }
+  .plano
+  {
+    animation-name: appear_img;
+    animation-duration: 3s;
+  }
+
+
+
+
+  @keyframes appear_g {
+    from {color: rgba(255, 255, 255, 0);}
+    to {ccolor: rgb(255, 255, 255);}
+  }
+  @keyframes appear_img {
+    from {top: 70%;}
+    to {top: 60%;}
+  }
