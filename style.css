@@ -6,9 +6,9 @@
 {
     font-family:'Courier New', Courier, monospace;
     position: absolute;
-    font-size: 300%;
-    top: 32%;
-    right: 25%;
+    font-size:6vw;
+    top: 3vw;
+    right: 0vw;
 }
 img
 {
@@ -28,26 +28,26 @@ body{
 }
 .body1{
   font-family :'Courier New', Courier, monospace;
-  max-width: 30%;
+  max-width: 30vw;
   font-size: 20px;
   position: absolute;
-  right: 49%;
+  right: 44vw;
 }
 
 .body2{
     font-family :'Courier New', Courier, monospace;
-    max-width: 60%;
-    font-size: 23px;
+    max-width: 60vw;
+    font-size: 1.5vw;
     position: absolute;
-    right: 21%;
-    top: 50%;
+    right: 20vw;
+    top: 28vw;
   }
 
 
 
 .body_style1{
-max-width: 100%;
-font-size: 17px;
+max-width: 130vw;
+font-size: 0.8vw;
 color: rgb(220, 226, 231);
 -webkit-user-select: none;
 -khtml-user-select: none;
@@ -75,4 +75,9 @@ animation-duration: 3s;
   @keyframes appear_img {
     from {top: 70%;}
     to {top: 60%;}
+  }
+  @keyframes page_flip
+  {
+    from {width: 100;}
+    to {width: 0%;}
   }
