@@ -9,6 +9,9 @@
     font-size:6vw;
     top: 3vw;
     right: 0vw;
+    color:  rgb(2, 183, 255);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(0, 17, 255);
 }
 img
 {
@@ -35,19 +38,37 @@ body{
 }
 
 .body2{
+  
+    color:  rgb(2, 255, 57);
     font-family :'Courier New', Courier, monospace;
-    max-width: 60vw;
-    font-size: 1.5vw;
+    max-width: 65vw;
+    font-size: 1.8vw;
     position: absolute;
-    right: 20vw;
-    top: 28vw;
+    right: 18vw;
+    top: 50vh;
+
+    text-align: center;
+
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 153, 255);
+
+
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+
+    
+    animation-name: appear_t;
+    animation-duration: 3s;
   }
 
 
 
 .body_style1{
-max-width: 130vw;
-font-size: 0.8vw;
+font-size: 1cqmax;
 color: rgb(174, 217, 252);
 -webkit-user-select: none;
 -khtml-user-select: none;
@@ -58,11 +79,17 @@ user-select: none;
 cursor: default;
 animation-name: appear_g;
 animation-duration: 3s;
+position: absolute;
+height: 100%;
+
   }
   .plano
   {
     animation-name: appear_img;
     animation-duration: 3s;
+    height: 80vh;
+    position: absolute;
+    top: 62vh;
   }
 
 
@@ -73,11 +100,10 @@ animation-duration: 3s;
     to {ccolor: rgb(255, 255, 255);}
   }
   @keyframes appear_img {
-    from {top: 70%;}
-    to {top: 60%;}
+    from {top: 65vh;}
+    to {top: 62vh;}
   }
-  @keyframes page_flip
-  {
-    from {width: 100;}
-    to {width: 0%;}
+  @keyframes appear_t {
+    from {top: 47vh;}
+    to {top: 50vh;}
   }
