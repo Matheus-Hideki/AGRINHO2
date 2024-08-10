@@ -1,3 +1,7 @@
+.bg_rect
+{
+    position: absolute;
+}
 .Fonte-Normal
 {
     font-family: 'Courier New', Courier, monospace;
@@ -6,20 +10,23 @@
 {
     font-family:'Courier New', Courier, monospace;
     position: absolute;
-    font-size:6vw;
+    font-size:3vw;
     top: 3vw;
-    right: 0vw;
-    color:  rgb(2, 183, 255);
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: rgb(0, 17, 255);
+    right: 18vw;
+    color:  #F5A785;
+
+
+
+    color: #eceeee;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
 }
 img
 {
     position: absolute;
-    width: 100%;
-    height: 70%;
-    left: 0.11%;
-    top: 60%;
 }
 body{
     max-width: 100%;
@@ -27,7 +34,11 @@ body{
   text-align: center;
   animation-name: appear_g;
   animation-duration: 3s;
-  background-color: #bdfeff;
+
+  background-image: linear-gradient(to right, #85d3f5,#56C2F1);
+   position: relative;
+  width: 100%;
+  height: 100vh; /* Or an appropriate height */
 }
 .body1{
   font-family :'Courier New', Courier, monospace;
@@ -47,10 +58,9 @@ body{
     right: 18vw;
     top: 50vh;
 
-    text-align: center;
 
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(0, 153, 255);
+    -webkit-text-stroke-color: #F5A785;
 
 
     color: white;
@@ -64,12 +74,180 @@ body{
     animation-name: appear_t;
     animation-duration: 3s;
   }
+  .highlight_eff
+{
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.highlight_eff:hover {
+  background-color: #2980b9;
+}
+  .body3{
+  
+    text-align: justify;
+    color:  rgb(2, 255, 57);
+    font-family :'system-ui';
+    max-width: 65vw;
+    font-size: 1.2vw;
+    position: absolute;
+    right: 20vw;
+    top: 40vh;
 
 
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #E81789;
+
+
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+
+  
+  }
+
+  .body4{
+  
+    text-align: justify;
+    color:  rgb(2, 255, 57);
+    font-family :'system-ui';
+    max-width: 22vw;
+    font-size: 1vw;
+    position: absolute;
+    left: 58vw;
+    top: 60vh;
+
+
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: #E81789;
+
+
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+
+  
+  }
+  .body5:hover {
+    background-color: #ffffff;
+  }
+  .body5{
+  
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    
+    text-align: justify;
+    color:  #E81789;
+    font-family :'system-ui';
+    max-width: 22vw;
+    font-size: 1vw;
+    position: absolute;
+    left: 64vw;
+    top: 77vh;
+
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: #E81789;
+
+
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+
+
+  }
+  .body6{
+  
+    text-align: justify;
+    color:  rgb(2, 255, 57);
+    font-family :'system-ui';
+    max-width: 22vw;
+    font-size: 1vw;
+    position: absolute;
+    left: 58vw;
+    top: 80vh;
+
+
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: #E81789;
+
+
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+
+  }
+  .body7{
+  
+    text-align: justify;
+    color:  rgb(2, 255, 57);
+    font-family :'system-ui';
+    max-width: 50vw;
+    font-size: 1vw;
+    position: absolute;
+    left: 14vw;
+    top: 110vh;
+
+
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: #E81789;
+
+
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+
+  }
+  .body8:hover
+  {
+    background-color: #ffffff;
+  }
+  .body8{
+  
+  
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    
+    text-align: justify;
+    color:  #E81789;
+    font-family :'system-ui';
+    max-width: 22vw;
+    font-size: 1vw;
+    position: absolute;
+    left: 26vw;
+    top: 123.5vh;
+
+
+
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: #E81789;
+
+
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+
+  }
 
 .body_style1{
 font-size: 1cqmax;
-color: rgb(174, 217, 252);
+color: #56C2F1;
 -webkit-user-select: none;
 -khtml-user-select: none;
 -moz-user-select: none;
@@ -83,25 +261,42 @@ position: absolute;
 height: 100%;
 
   }
+
+
+
   .plano
   {
     animation-name: appear_img;
     animation-duration: 3s;
     height: 80vh;
+    width:120vw;
     position: absolute;
+    right: 0vw;
+    top: 62.3vh;
+  }
+
+  .drone
+  {
+    animation-name: appear_img;
+    animation-duration: 3s;
+    height: 80vh;
+    width:50vw;
+    position: absolute;
+    right: 0vw;
     top: 62vh;
   }
 
 
 
 
+
   @keyframes appear_g {
-    from {color: rgba(255, 255, 255, 0);}
-    to {ccolor: rgb(255, 255, 255);}
+    from {color: #56c2f100;}
+    to {color: #56C2F1;}
   }
   @keyframes appear_img {
     from {top: 65vh;}
-    to {top: 62vh;}
+    to {top: 62.3vh;}
   }
   @keyframes appear_t {
     from {top: 47vh;}
